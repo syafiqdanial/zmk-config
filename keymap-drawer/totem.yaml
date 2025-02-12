@@ -11,130 +11,190 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LEFT CONTROL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT COMMAND}
-  - {t: F, h: LEFT SHIFT}
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LSHFT}
   - G
   - H
-  - {t: J, h: LEFT SHIFT}
-  - {t: K, h: RIGHT COMMAND}
-  - L
-  - ;
+  - {t: J, h: RSHFT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RALT}
+  - {t: ;, h: ''''}
   - Q
   - Z
   - X
   - C
   - V
   - B
-  - N
+  - {t: N, h: SYM}
   - M
   - ','
   - .
+  - {t: \, h: /}
   - /
-  - /
-  - DANGER
-  - NUMS
+  - ESC
+  - {t: TAB, h: SYM}
+  - {t: SPACE, h: NUMS}
+  - {t: BSPC, h: Scrolling}
+  - DEL
   - ENTER
-  - SPACE
-  - BACKSPACE
-  - DANGER
   NUMS:
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - +
   - '1'
   - '2'
   - '3'
+  - (
+  - )
+  - HOME
+  - UP ARROW
+  - END
+  - PAGE UP
+  - '-'
   - '4'
   - '5'
-  - '-'
+  - '6'
+  - '0'
   - '='
-  - '`'
-  - '['
-  - ']'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PAGE DOWN
   - '6'
-  - '6'
+  - KP MULTIPLY
   - '7'
   - '8'
   - '9'
-  - '0'
-  - _
-  - +
-  - '~'
-  - '|'
-  - \
+  - .
+  - ''
+  - CAPSLOCK
+  - ''
+  - ''
+  - ''
   - '6'
+  - KP DIVIDE
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  DANGER:
+  - BSPC
+  - DELETE
+  - ENTER
+  SYM:
+  - '&roundbkt'
+  - '&squarebkt'
+  - '&curlbkt'
+  - '`'
+  - '~'
+  - ^
   - F1
   - F2
   - F3
   - F4
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '|'
+  - {t: ▽, type: trans}
   - F5
   - F6
   - F7
   - F8
+  - ''
+  - '%'
+  - ^
+  - '&'
+  - \
+  - _
+  - {type: held}
   - F9
-  - BT CLR
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
-  - MUTE
-  - PREVIOUS
-  - NEXT
-  - PLAY PAUSE
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
   - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Bluetooth:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
   - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - VOLUME DOWN
   - VOLUME UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI DN
+  - BRI UP
+  - '&workemail'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  - '&sys_reset'
+  Scrolling:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
+  - END
+  - PG DN
+  - PG UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
 combos:
-- p: [27, 28]
-  k: ESCAPE
-- p: [28, 29]
-  k: TAB
-- p: [29, 30]
-  k: '`'
-- p: [1, 0]
-  k: ESCAPE
-- p: [21, 22]
-  k: Gui+Z
-- p: [19, 18]
-  k: ''''
-- p: [22, 23]
-  k: Gui+X
-- p: [23, 24]
-  k: Gui+C
-- p: [24, 25]
-  k: Gui+V
-- p: [14, 15]
-  k: ESCAPE
+- p: [34, 35]
+  k: Bluetooth
