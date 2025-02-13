@@ -116,7 +116,7 @@
             bindings = <
        &kp Q             &kp W         &kp E                 &kp R          &kp T          &kp Y       &kp U          &kp I                  &kp O         &kp P
        &hm_l LEFT_GUI A  &hm_l LALT S  &hm_l LEFT_CONTROL D  &hm_l LSHFT F  &kp G          &kp H       &hm_r RSHFT J  &hm_r RIGHT_CONTROL K  &hm_r RALT L  &hm_r SEMICOLON SQT 
-&kp Q  &kp Z             &kp X         &kp C                 &kp V          &kp B          &lt 2 N     &kp M          &kp COMMA              &kp DOT       &hm_r SLASH BACKSLASH  &kp SLASH
+&kp Q  &kp Z             &kp X         &kp C                 &kp V          &kp B          &lt 2 N     &kp M          &kp COMMA              &kp DOT       &hm_r BACKSLASH SLASH   &kp SLASH
                                        &kp ESC               &lt 2 TAB      &lt 1 SPACE    &lt 4 BSPC  &kp DEL        &kp ENTER
             >;
         };

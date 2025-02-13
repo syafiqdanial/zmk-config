@@ -31,7 +31,7 @@ layers:
   - M
   - ','
   - .
-  - {t: \, h: /}
+  - {t: /, h: \}
   - /
   - ESC
   - {t: TAB, h: SYM}
