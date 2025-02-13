@@ -13,7 +13,7 @@
 #include "zmk-helpers/helper.h"
 
 #define HM_TAPPING_TERM 180
-#define HM_TAPPING_TERM_FAST 150
+#define HM_TAPPING_TERM_FAST 75
 #define HM_PRIOR_IDLE 120
 #define COMBO_TERM_FAST 35
 #define COMBO_TERM_SLOW 40
