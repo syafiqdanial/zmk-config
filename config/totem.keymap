@@ -59,7 +59,7 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
             quick-tap-ms = <HM_TAPPING_TERM_FAST>;
-            require-prior-idle-ms = <HM_PRIOR_IDLE>;
+            require-prior-idle-ms = 0;
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
             hold-trigger-on-release;
         };
@@ -72,7 +72,7 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
             quick-tap-ms = <HM_TAPPING_TERM_FAST>;
-            require-prior-idle-ms = <HM_PRIOR_IDLE>;
+            require-prior-idle-ms = 0;
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
             hold-trigger-on-release;
         };
