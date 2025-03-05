@@ -97,13 +97,6 @@
             bindings = <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT>;
             label = "CURLBKT";
         };
-
-        workemail: workemail {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp Y &kp A &kp F &kp I &kp Q &kp MINUS &kp D &kp A &kp N &kp I &kp A &kp L &kp DOT &kp Z &kp U &kp L &kp K &kp I &kp F &kp L &kp I &kp AT &kp H &kp P &kp DOT &kp C &kp O &kp M>;
-            label = "WORKEMAIL";
-        };
     };
 
     keymap {
@@ -113,8 +106,8 @@
             display-name = "BASE";
             bindings = <
        &kp Q             &kp W         &kp E                 &kp R          &kp T          &kp Y       &kp U          &kp I                  &kp O         &kp P
-       &hm_l LEFT_GUI A  &hm_l LALT S  &hm_l LEFT_CONTROL D  &hm_l LSHFT F  &kp G          &kp H       &hm_r RSHFT J  &hm_r RIGHT_CONTROL K  &hm_r RALT L  &hm_r SEMICOLON SQT 
-&kp Q  &kp Z             &kp X         &kp C                 &kp V          &kp B          &lt 2 N     &kp M          &kp COMMA              &kp DOT       &hm_r BACKSLASH SLASH   &kp SLASH
+       &hm_l LEFT_GUI A  &hm_l LALT S  &hm_l LEFT_CONTROL D  &hm_l LSHFT F  &kp G          &kp H       &hm_r RSHFT J  &hm_r RIGHT_CONTROL K  &hm_r RALT L  &hm_r SEMICOLON SQT
+&kp Q  &kp Z             &kp X         &kp C                 &kp V          &kp B          &lt 2 N     &kp M          &kp COMMA              &kp DOT       &hm_r BACKSLASH SLASH  &kp SLASH
                                        &kp ESC               &lt 2 TAB      &lt 1 SPACE    &lt 4 BSPC  &kp DEL        &kp ENTER
             >;
         };
