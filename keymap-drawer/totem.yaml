@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RSHFT}
   - {t: K, h: RIGHT CONTROL}
   - {t: L, h: RALT}
-  - {t: '''', h: ;}
+  - {t: ;, h: ''''}
   - Q
   - Z
   - X
@@ -31,7 +31,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: \}
+  - {t: \, h: /}
   - /
   - ESC
   - {t: TAB, h: SYM}
