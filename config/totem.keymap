@@ -106,8 +106,8 @@
             display-name = "BASE";
             bindings = <
        &kp Q             &kp W         &kp E                 &kp R          &kp T          &kp Y       &kp U          &kp I                  &kp O         &kp P
-       &hm_l LEFT_GUI A  &hm_l LALT S  &hm_l LEFT_CONTROL D  &hm_l LSHFT F  &kp G          &kp H       &hm_r RSHFT J  &hm_r RIGHT_CONTROL K  &hm_r RALT L  &hm_r SQT SEMICOLON 
-&kp Q  &kp Z             &kp X         &kp C                 &kp V          &kp B          &lt 2 N     &kp M          &kp COMMA              &kp DOT       &hm_r SLASH BACKSLASH   &kp SLASH
+       &hm_l LEFT_GUI A  &hm_l LALT S  &hm_l LEFT_CONTROL D  &hm_l LSHFT F  &kp G          &kp H       &hm_r RSHFT J  &hm_r RIGHT_CONTROL K  &hm_r RALT L  &hm_r SEMI SQT
+&none  &kp Z             &kp X         &kp C                 &kp V          &kp B          &lt 2 N     &kp M          &kp COMMA              &kp DOT       &hm_r BACKSLASH SLASH  &none
                                        &kp ESC               &lt 2 TAB      &lt 1 SPACE    &lt 4 BSPC  &kp DEL        &kp ENTER
             >;
         };
@@ -134,10 +134,10 @@
 
         Bluetooth {
             bindings = <
-            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none        &none              &none            &bt BT_CLR    &none
-            &trans        &none         &none         &none         &none           &none        &kp K_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRI_DN  &kp C_BRI_UP
-&workemail  &none         &none         &none         &none         &bootloader     &bootloader  &none              &none            &none         &none         &none
-                                        &sys_reset    &none         &none           &none        &none              &sys_reset
+       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none        &none              &none            &bt BT_CLR    &none
+       &trans        &none         &none         &none         &none           &none        &kp K_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRI_DN  &kp C_BRI_UP
+&none  &none         &none         &none         &none         &bootloader     &bootloader  &none              &none            &none         &none         &none
+                                   &sys_reset    &none         &none           &none        &none              &sys_reset
             >;
         };
 
